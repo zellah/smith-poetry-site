@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+#historybox {
+	background-color:#6C63BC;
+	color: black;
+	font-size: 18pt;
+}
+#aboutcontent {
+	margin:40px;
+}
+#aboutbox {
+	background-color:#6C63BC;
+	color: black;
+	font-size: 18pt;
+}
+
+#footerdiv {
+	float:right;
+	text-align:center;
+	color:white;
+	padding-right:300px;
+	font-size:90%;
+}
+
+table#wrappertable {
+	background-color:black;
+}
+
+#wrapperbox {
+	background-color:black;
+	/** center this with some extra space **/
+}
+
+.mainbox {
+	background-color:black;
+	text-align:center;
+}
+
+#headerbar {
+	text-align:center;
+}
+
+#navbar img {
+}
+
+#navbar {
+	border:0px solid #FFF;
+	text-shadow:1px 1px 1px #000;
+}
+
+.navbar_item {
+	float:left;
+	/** fix so the nav bar is centered **/
+}
+
+#navbar ul{
+	list-style:none inside none;
+	text-align:center;
+	background-color:gray;
+	padding-left: 15px;
+	padding-right: 15px;
+	width:112px;
+	margin-top:-2px;
+	margin-left:-1px;
+	display:none;
+	z-index:999;
+	position:absolute;
+}
+
+#navbar ul li a{
+	font-size:120%;
+	height:40px;
+	color:#FFFFFF;
+	display:block;
+	padding-top:20px;
+}
+
+#navbar ul li a:hover{
+	background-color:LightGray;
+	color:black;
+	text-shadow:none;
+	/** get this to cover the whole block **/
+}
+
+a {
+	color: #607293;
+	text-decoration: none;
+}
+
+body {
+	color: #797979;
+	font-family: Verdana, Arial;
+	font-size: 75%;
+}
+
